@@ -1,0 +1,99 @@
+body 
+{
+	background: #F0F0F0;
+	width:1000px;
+	margin:auto;
+	position:relative;
+}
+
+
+
+#article
+{
+	position:absolute;
+	background:white;
+	border:2px solid;
+	border-color:white;
+	border-radius:25px;
+	-webkit-border-radius:25px; /* Safari */
+	margin:auto;
+	width:850px;
+	min-height:650px;
+	top:60px;
+	padding:20px;
+
+}
+
+article.blogText{
+	width:700px;
+	margin: auto;
+	margin-top:30px;
+	font-family: 'PT Sans Narrow', arial, serif;
+	font-size:17px;
+}
+
+
+#tableHolder td {
+	font-size:30px;
+	background-color:#FFF;
+  border:1px solid black;
+}
+
+
+#tableHolder table {
+		border:0px solid black;
+}
+
+
+.quicksortSelected{
+	color:red;
+}
+.quicksortUnselected{
+	color:black;
+}
+
+
+nav{
+	position:absolute;
+	right:0px;
+	top:100px;
+
+	width:100px;
+	height:500px;
+
+}
+
+nav a{
+	text-decoration:none;
+	 font-family: 'PT Sans Narrow', arial, serif; 	
+	color:blue;
+}
+
+.active{
+	color:red;
+}
+
+nav b{
+		font-family: 'Annie Use Your Telescope', arial, serif;
+		font-size:20px;
+		line-height:90%;
+}
+
+
+header {
+	height: 60px;
+	margin-left:30px;
+	margin-top:30px;
+	
+	
+}
+header h1 { 
+	font-family: 'Cabin Sketch', arial, serif; 
+	line-height:30%
+	}
+header h2 { 
+	
+		font-family: 'Annie Use Your Telescope', arial, serif;
+		font-size:17px;
+		line-height:30%
+		}
