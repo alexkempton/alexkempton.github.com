@@ -1,7 +1,9 @@
 <html>
 <head>
+	<link href="../game/game.css" rel="stylesheet" type="text/css" />
 	<!-- Import EaselJS Framework -->
 	<script src="../js/easel.js"></script>
+	<script src="../game/game.js"></script>
 	</head>
 <body  onload="init();">	
 <article>
@@ -12,44 +14,7 @@
 	
 
 	
-	<script>
-	var canvas;
-	var stage;
-	var rect;
-	var numbers;
-	
 
-	
-	function init() {
-		var spaceshipImg = new Image();
-		spaceshipImg.src = "../game/spaceship.png"
-		var spaceshipBmp = new Bitmap(spaceshipImg);
-		spaceshipBmp.x = 20;
-		spaceshipBmp.y = 20;
-		canvas = document.getElementById("gameCanvas");
-		stage = new Stage(canvas);
-		
-		rect = new Shape();
-		
-		rect.graphics
-		.beginStroke("black")
-		.drawRect(10,10,40,40);
-		
-		stage.addChild(rect);
-		stage.addChild(spaceshipBmp);
-		stage.update();
-		
-		Ticker.setFPS(3);
-		Ticker.addListener(window);
-		
-	}
-	
-
-	
-	
-	
-	
-	</script>
 	</article>
 	
 	</body>
