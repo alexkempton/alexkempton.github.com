@@ -32,6 +32,9 @@ article.blogText{
 	font-size:17px;
 }
 
+articles.date{
+	text-align:right;
+}
 
 #tableHolder td {
 	font-size:30px;
