@@ -20,6 +20,7 @@ var badGuys = new Array();
 var badGuysIndex = 0;
 var badGuyImg = new Image();
 var ticksSinceBadLastBadGuy = 0;
+var level = 1.0;
 var logo = new Image();
 var logoBmp;
 var gameoverimg = new Image();
@@ -195,9 +196,10 @@ function gameOver(){
 
 function checkForBadGuys(){
 	ticksSinceBadLastBadGuy++;
-	if(ticksSinceBadLastBadGuy>Math.floor(Math.random()*120)){
+	if(ticksSinceBadLastBadGuy>Math.floor(Math.random()*150) && ticksSinceBadLastBadGuy>(60*level)){
 		goBadGuy();
 		ticksSinceBadLastBadGuy=0;
+		level -= 0.05;
 	}
 }
 
