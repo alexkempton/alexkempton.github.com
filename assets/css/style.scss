@@ -7,3 +7,13 @@
   background: #252525;
   background-image: none;
 }
+
+#wrapper {
+    border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url('/assets/css/style.css) round; /* Safari 3.1-5 */
+    -o-border-image: url('/assets/css/style.css) round; /* Opera 11-12.1 */
+    border-image: url('/assets/css/style.css) round;
+    border-image-slice: 50;
+  
+}
